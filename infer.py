@@ -2,7 +2,7 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name_or_path = "OPPOResearchInstitute/AndesGPT"
+model_name_or_path = "OPPOResearchInstitute/oppo-experiemental-7B"
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, use_fast=False, trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained(model_name_or_path, device_map="auto", trust_remote_code=True)
 
