@@ -1,0 +1,6 @@
+accelerate==0.22.0
+bitsandbytes==0.41.1
+sentencepiece==0.1.99
+torch==2.0.1
+transformers==4.30.2
+xformers==0.0.21
